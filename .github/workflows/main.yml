@@ -40,4 +40,4 @@ jobs:
           sleep 1m
           kubectl get svc
           minikube service list
-          minikube service precily --url
+          minikube service htmlresume --url
