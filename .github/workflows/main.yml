@@ -28,7 +28,7 @@ jobs:
           export SHELL=/bin/bash
           eval $(minikube -p minikube docker-env)
           docker build -f ./Dockerfile -t abdulkader4513/htmlresume .
-          docker tag abdulkader4513/precily abdulkader4513/htmlresume:latest
+          docker tag abdulkader4513/htmlresume abdulkader4513/htmlresume:latest
           docker images
           docker push abdulkader4513/htmlresume:latest
           echo -n "verifying images:"
